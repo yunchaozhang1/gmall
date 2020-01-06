@@ -3,9 +3,5 @@ spring:
     name: pms-service
   cloud:
     nacos:
-      config:
+      config: 0c923c4b-8919-454d-b53c-ac01e56a958e
         server-addr: 127.0.0.1:8848
-        namespace: 0c923c4b-8919-454d-b53c-ac01e56a958e
-        group: dev
-        file-extension: yml
-
