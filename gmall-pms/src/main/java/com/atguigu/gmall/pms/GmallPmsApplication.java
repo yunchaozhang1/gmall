@@ -8,12 +8,24 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@MapperScan(basePackages = "com.atguigu.gmall.pms.dao")
+@MapperScan("com.atguigu.gmall.pms.dao")
 @RefreshScope
 public class GmallPmsApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(GmallPmsApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(GmallPmsApplication.class, args);
+
+
+    }
+
 
 }
+
+
+
+
+
+
+
+
+
